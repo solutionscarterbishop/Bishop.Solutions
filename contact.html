@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Bishop Solutions</title>
+  <meta name="description" content="Get in touch with Bishop Solutions. Whether you need business intelligence, strategic consulting, or a builder for your next project.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body class="page-body">
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Bishop Solutions home">
+        <div class="nav__logo-mark">B</div>
+        <span class="nav__logo-text">Bishop</span>
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="projects.html" class="nav__link">Projects</a>
+        <a href="contact.html" class="nav__cta">Get in Touch</a>
+      </div>
+      <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile">
+      <a href="index.html" class="nav__link">Home</a>
+      <a href="about.html" class="nav__link">About</a>
+      <a href="projects.html" class="nav__link">Projects</a>
+      <a href="contact.html" class="nav__cta">Get in Touch</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+      <div class="container">
+        <div class="section-label reveal">Contact</div>
+        <h1 class="reveal stagger-1">Let's build something<br><em>worth talking about.</em></h1>
+        <p class="reveal stagger-2">Whether you're an enterprise looking for intelligence solutions, a company wanting to hire a builder, or a partner with an interesting problem — I'd love to hear from you.</p>
+      </div>
+    </section>
+
+    <!-- Contact Grid -->
+    <section>
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Left: Form -->
+          <div class="contact-form__card reveal">
+            <h2>Send a Message</h2>
+
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="you@company.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="company">Company <span class="optional">(optional)</span></label>
+                <input type="text" id="company" name="company" placeholder="Your company name">
+              </div>
+
+              <div class="form-group">
+                <label for="interest">I'm interested in...</label>
+                <select id="interest" name="interest" required>
+                  <option value="" disabled selected>Select an option</option>
+                  <option value="intelligence">Business Intelligence / Analytics</option>
+                  <option value="consulting">Strategic Consulting</option>
+                  <option value="project">Hiring for a Project</option>
+                  <option value="role">Hiring for a Role (W2)</option>
+                  <option value="partnership">Partnership Opportunity</option>
+                  <option value="other">Something Else</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or what you're looking for..." required></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="budget">Budget Range <span class="optional">(optional)</span></label>
+                <select id="budget" name="budget">
+                  <option value="" disabled selected>Select a range</option>
+                  <option value="under-10k">Under $10,000</option>
+                  <option value="10k-50k">$10,000 — $50,000</option>
+                  <option value="50k-100k">$50,000 — $100,000</option>
+                  <option value="100k-plus">$100,000+</option>
+                  <option value="na">Not Applicable</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full">
+                Send Message
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </button>
+            </form>
+
+            <!-- Success State -->
+            <div id="form-success" class="form-success">
+              <div class="form-success__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <h3>Message Sent</h3>
+              <p>Thanks for reaching out. I'll get back to you within 24 hours.</p>
+            </div>
+          </div>
+
+          <!-- Right: Sidebar -->
+          <div class="contact-sidebar reveal stagger-1">
+            <!-- Email -->
+            <div class="sidebar-card">
+              <div class="sidebar-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="sidebar-card__title">Email</div>
+              <div class="sidebar-card__value"><a href="mailto:carter@bishop.solutions">carter@bishop.solutions</a></div>
+            </div>
+
+            <!-- Location -->
+            <div class="sidebar-card">
+              <div class="sidebar-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="sidebar-card__title">Location</div>
+              <div class="sidebar-card__value">Tampa Bay Area, Florida</div>
+              <div class="sidebar-card__note">Available remotely nationwide</div>
+            </div>
+
+            <!-- Response Time -->
+            <div class="sidebar-card">
+              <div class="sidebar-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="sidebar-card__title">Response Time</div>
+              <div class="sidebar-card__value">Within 24 hours</div>
+              <div class="sidebar-card__note">Typically much faster</div>
+            </div>
+
+            <!-- Social -->
+            <div class="sidebar-card">
+              <div class="sidebar-card__title">Connect</div>
+              <div class="sidebar-social">
+                <a href="#" class="sidebar-social__link">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                  LinkedIn
+                </a>
+                <a href="#" class="sidebar-social__link">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
+                  Twitter / X
+                </a>
+              </div>
+            </div>
+
+            <!-- Calendly -->
+            <div class="sidebar-card sidebar-card--dark">
+              <h4>Prefer to schedule directly?</h4>
+              <p>Book a 15 or 30-minute call at a time that works for you.</p>
+              <a href="#" class="btn btn--gold btn--full">Book a Call</a>
+              <div class="sidebar-card__note">Calendly link coming soon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="nav__logo" aria-label="Bishop Solutions home">
+            <div class="nav__logo-mark">B</div>
+            <span class="nav__logo-text">Bishop</span>
+          </a>
+          <p class="footer__brand-desc">AI-powered intelligence systems that help businesses make better decisions with their data.</p>
+        </div>
+        <div>
+          <div class="footer__heading">Navigate</div>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">About</a>
+          <a href="projects.html" class="footer__link">Projects</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <div class="footer__heading">Services</div>
+          <a href="projects.html" class="footer__link">Review Intelligence</a>
+          <a href="projects.html" class="footer__link">Competitive Intelligence</a>
+          <a href="projects.html" class="footer__link">Growth Engineering</a>
+          <a href="contact.html" class="footer__link">Consulting</a>
+        </div>
+        <div>
+          <div class="footer__heading">Connect</div>
+          <a href="mailto:carter@bishop.solutions" class="footer__link">carter@bishop.solutions</a>
+          <a href="#" class="footer__link">LinkedIn</a>
+          <a href="#" class="footer__link">Twitter / X</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copyright">&copy; 2025 Bishop Solutions. All rights reserved.</span>
+        <div class="footer__socials">
+          <a href="#" class="footer__social" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="footer__social" aria-label="Twitter / X">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
+          </a>
+          <a href="mailto:carter@bishop.solutions" class="footer__social" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
