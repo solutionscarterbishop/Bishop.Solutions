@@ -10,6 +10,13 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/home.css">
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vdz35ft6jl");
+  </script>
 </head>
 <body class="page-body">
 
@@ -23,6 +30,18 @@
       <div class="nav__links">
         <a href="index.html" class="nav__link">Home</a>
         <a href="about.html" class="nav__link">About</a>
+        <div class="nav__dropdown">
+          <button class="nav__link nav__link--dropdown" aria-expanded="false" aria-haspopup="true">
+            Services
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="nav__dropdown-chevron"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="nav__dropdown-menu" role="menu">
+            <a href="review-intelligence.html" class="nav__dropdown-item" role="menuitem">Review Intelligence</a>
+            <a href="competitive-intelligence.html" class="nav__dropdown-item" role="menuitem">Competitive Intelligence</a>
+            <a href="growth-engineering.html" class="nav__dropdown-item" role="menuitem">Growth Engineering</a>
+            <a href="consulting.html" class="nav__dropdown-item" role="menuitem">Consulting</a>
+          </div>
+        </div>
         <a href="projects.html" class="nav__link">Projects</a>
         <a href="contact.html" class="nav__cta">Get in Touch</a>
       </div>
@@ -33,6 +52,18 @@
     <div class="nav__mobile">
       <a href="index.html" class="nav__link">Home</a>
       <a href="about.html" class="nav__link">About</a>
+      <div class="nav__mobile-group">
+        <button class="nav__link nav__mobile-group-toggle">
+          Services
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="nav__dropdown-chevron"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav__mobile-sublinks">
+          <a href="review-intelligence.html" class="nav__link nav__link--sub">Review Intelligence</a>
+          <a href="competitive-intelligence.html" class="nav__link nav__link--sub">Competitive Intelligence</a>
+          <a href="growth-engineering.html" class="nav__link nav__link--sub">Growth Engineering</a>
+          <a href="consulting.html" class="nav__link nav__link--sub">Consulting</a>
+        </div>
+      </div>
       <a href="projects.html" class="nav__link">Projects</a>
       <a href="contact.html" class="nav__cta">Get in Touch</a>
     </div>
@@ -73,7 +104,7 @@
             <div class="stat__label">Followers Grown for Clients</div>
           </div>
           <div class="stat reveal stagger-1">
-            <div class="stat__number" data-count="150" data-suffix="+">0</div>
+            <div class="stat__number" data-count="250" data-suffix="+">0</div>
             <div class="stat__label">Store Locations Analyzed</div>
           </div>
           <div class="stat reveal stagger-2">
@@ -83,6 +114,24 @@
           <div class="stat reveal stagger-3">
             <div class="stat__number" data-count="49">0</div>
             <div class="stat__label">States Covered</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar">
+      <div class="container">
+        <div class="trust-bar__inner reveal">
+          <span class="trust-bar__label">Built for</span>
+          <div class="trust-bar__tags">
+            <span class="trust-bar__tag">Multi-Location Chains</span>
+            <span class="trust-bar__dot" aria-hidden="true"></span>
+            <span class="trust-bar__tag">National QSR</span>
+            <span class="trust-bar__dot" aria-hidden="true"></span>
+            <span class="trust-bar__tag">Retail &amp; Hospitality</span>
+            <span class="trust-bar__dot" aria-hidden="true"></span>
+            <span class="trust-bar__tag">Growth-Stage Brands</span>
           </div>
         </div>
       </div>
@@ -98,29 +147,29 @@
         </div>
         <div class="services__grid">
           <!-- Card 1 -->
-          <div class="card service-card reveal stagger-1">
+          <a href="review-intelligence.html" class="card service-card reveal stagger-1">
             <div class="service-card__icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 17V13"/><path d="M12 17V9"/><path d="M17 17V5"/></svg>
             </div>
             <h3>Review Intelligence</h3>
             <p>AI-powered analysis of customer feedback across hundreds of locations. We classify complaints, quantify revenue impact, and surface the insights that matter.</p>
-          </div>
+          </a>
           <!-- Card 2 -->
-          <div class="card service-card reveal stagger-2">
+          <a href="competitive-intelligence.html" class="card service-card reveal stagger-2">
             <div class="service-card__icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
             </div>
             <h3>Competitive Intelligence</h3>
             <p>Know your market before you enter it. We analyze competitor reviews and customer sentiment to identify gaps, threats, and opportunities for expansion.</p>
-          </div>
+          </a>
           <!-- Card 3 -->
-          <div class="card service-card reveal stagger-3">
+          <a href="growth-engineering.html" class="card service-card reveal stagger-3">
             <div class="service-card__icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg>
             </div>
             <h3>Growth Engineering</h3>
             <p>From 40,000 to 1.6 million followers. We engineer growth systems that scale — leveraging data, content strategy, and relentless optimization.</p>
-          </div>
+          </a>
         </div>
       </div>
     </section>
@@ -169,6 +218,15 @@
       </div>
     </section>
 
+    <!-- Pull Quote -->
+    <section class="pull-quote">
+      <div class="container">
+        <blockquote class="pull-quote__text reveal">
+          "Data without insight is just noise.<br><em>We build the systems that turn one into the other.</em>"
+        </blockquote>
+      </div>
+    </section>
+
     <!-- CTA -->
     <section class="cta-section">
       <div class="container">
@@ -209,28 +267,24 @@
         </div>
         <div>
           <div class="footer__heading">Services</div>
-          <a href="projects.html" class="footer__link">Review Intelligence</a>
-          <a href="projects.html" class="footer__link">Competitive Intelligence</a>
-          <a href="projects.html" class="footer__link">Growth Engineering</a>
-          <a href="contact.html" class="footer__link">Consulting</a>
+          <a href="review-intelligence.html" class="footer__link">Review Intelligence</a>
+          <a href="competitive-intelligence.html" class="footer__link">Competitive Intelligence</a>
+          <a href="growth-engineering.html" class="footer__link">Growth Engineering</a>
+          <a href="consulting.html" class="footer__link">Consulting</a>
         </div>
         <div>
           <div class="footer__heading">Connect</div>
-          <a href="mailto:carter@bishop.solutions" class="footer__link">carter@bishop.solutions</a>
+          <a href="mailto:solutions.carterbishop@gmail.com" class="footer__link">solutions.carterbishop@gmail.com</a>
           <a href="#" class="footer__link">LinkedIn</a>
-          <a href="#" class="footer__link">Twitter / X</a>
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2025 Bishop Solutions. All rights reserved.</span>
+        <span class="footer__copyright">&copy; 2026 Bishop Solutions. All rights reserved.</span>
         <div class="footer__socials">
           <a href="#" class="footer__social" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
           </a>
-          <a href="#" class="footer__social" aria-label="Twitter / X">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
-          </a>
-          <a href="mailto:carter@bishop.solutions" class="footer__social" aria-label="Email">
+          <a href="mailto:solutions.carterbishop@gmail.com" class="footer__social" aria-label="Email">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
           </a>
         </div>
