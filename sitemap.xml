@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://bishop.solutions/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://bishop.solutions/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bishop.solutions/experience.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bishop.solutions/projects.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bishop.solutions/services.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bishop.solutions/resume.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bishop.solutions/blog.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bishop.solutions/contact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://bishop.solutions/projects/bishop-crm.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bishop.solutions/projects/review-intelligence.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bishop.solutions/projects/marketing-command-center.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bishop.solutions/projects/bishop-plans.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bishop.solutions/projects/job-finder.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bishop.solutions/projects/fourx.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bishop.solutions/projects/aoos.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bishop.solutions/projects/sop-studio.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://bishop.solutions/blog/why-every-insurance-agent-needs-a-real-crm.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bishop.solutions/blog/build-vs-buy-the-operators-honest-framework.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bishop.solutions/blog/turning-73000-reviews-into-decisions.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bishop.solutions/blog/how-i-run-a-40-state-insurance-brokerage-on-software-i-built.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bishop.solutions/blog/practical-ai-automation-for-small-teams.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bishop.solutions/blog/the-marketing-command-center-thesis.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>

@@ -1,318 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About — Carter Bishop | Bishop Solutions</title>
-  <meta name="description" content="Meet Carter Bishop — 20-year-old founder of Bishop Solutions. From food service to regulated sales to building enterprise SaaS and scaling audiences to 1.6 million.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/about.css">
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vdz35ft6jl");
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Carter Bishop — Builder &amp; Operator</title>
+  <meta name="description" content="Carter Bishop grew up in Florida customer-facing roles, moved into insurance across 40+ states, and now builds the software and systems that quietly run modern businesses. This is the story behind the work." />
+  <link rel="canonical" href="https://bishop.solutions/about.html" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#FFFFFF" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="About Carter Bishop" />
+  <meta property="og:description" content="From customer-service roles to insurance across 40+ states to building the software that runs businesses." />
+  <meta property="og:url" content="https://bishop.solutions/about.html" />
+  <meta property="og:image" content="https://bishop.solutions/assets/og-about.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/main.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org","@type":"AboutPage",
+    "name":"About Carter Bishop",
+    "url":"https://bishop.solutions/about.html",
+    "about":{"@type":"Person","name":"Carter Bishop","url":"https://bishop.solutions/"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://bishop.solutions/"},
+    {"@type":"ListItem","position":2,"name":"About","item":"https://bishop.solutions/about.html"}
+  ]}
   </script>
 </head>
-<body class="page-body">
+<body>
 
-  <!-- Navigation -->
-  <nav class="nav" role="navigation" aria-label="Main navigation">
-    <div class="nav__inner">
-      <a href="index.html" class="nav__logo" aria-label="Bishop Solutions home">
-        <div class="nav__logo-mark">B</div>
-        <span class="nav__logo-text">Bishop</span>
-      </a>
-      <div class="nav__links">
-        <a href="index.html" class="nav__link">Home</a>
-        <a href="about.html" class="nav__link">About</a>
-        <div class="nav__dropdown">
-          <button class="nav__link nav__link--dropdown" aria-expanded="false" aria-haspopup="true">
-            Services
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="nav__dropdown-chevron"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="nav__dropdown-menu" role="menu">
-            <a href="review-intelligence.html" class="nav__dropdown-item" role="menuitem">Review Intelligence</a>
-            <a href="competitive-intelligence.html" class="nav__dropdown-item" role="menuitem">Competitive Intelligence</a>
-            <a href="growth-engineering.html" class="nav__dropdown-item" role="menuitem">Growth Engineering</a>
-            <a href="consulting.html" class="nav__dropdown-item" role="menuitem">Consulting</a>
-          </div>
-        </div>
-        <a href="projects.html" class="nav__link">Projects</a>
-        <a href="contact.html" class="nav__cta">Get in Touch</a>
-      </div>
-      <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+<nav class="site-nav" aria-label="Primary">
+  <div class="site-nav__inner">
+    <a href="/" class="brand" aria-label="Carter Bishop home"><span class="brand__mark">CB</span><span>Carter Bishop<span class="brand__dot">.</span></span></a>
+    <div class="nav-links" id="nav-links">
+      <a href="/about.html">About</a>
+      <a href="/experience.html">Experience</a>
+      <a href="/projects.html">Work</a>
+      <a href="/services.html">Services</a>
+      <a href="/blog.html">Writing</a>
+      <a href="/contact.html" class="nav-cta">Get in Touch</a>
     </div>
-    <div class="nav__mobile">
-      <a href="index.html" class="nav__link">Home</a>
-      <a href="about.html" class="nav__link">About</a>
-      <div class="nav__mobile-group">
-        <button class="nav__link nav__mobile-group-toggle">
-          Services
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="nav__dropdown-chevron"><polyline points="6 9 12 15 18 9"/></svg>
-        </button>
-        <div class="nav__mobile-sublinks">
-          <a href="review-intelligence.html" class="nav__link nav__link--sub">Review Intelligence</a>
-          <a href="competitive-intelligence.html" class="nav__link nav__link--sub">Competitive Intelligence</a>
-          <a href="growth-engineering.html" class="nav__link nav__link--sub">Growth Engineering</a>
-          <a href="consulting.html" class="nav__link nav__link--sub">Consulting</a>
-        </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:var(--s-8);align-items:end;">
+      <div>
+        <span class="eyebrow">About</span>
+        <h1>The short story of a long-standing habit: build the thing that makes the work easier.</h1>
+        <p class="lead" style="margin-top:var(--s-5);">I'm Carter Bishop. I've spent the last several years working in insurance across 40+ states, learning how a real, high-friction industry actually operates — and then building the software, systems, and marketing infrastructure to make it move faster. This page is the narrative behind the work.</p>
       </div>
-      <a href="projects.html" class="nav__link">Projects</a>
-      <a href="contact.html" class="nav__cta">Get in Touch</a>
+      <figure class="hero__photo" style="max-width:360px;justify-self:end;">
+        <img src="/assets/carter-bishop.webp" alt="Carter Bishop" />
+      </figure>
     </div>
-  </nav>
+  </div>
+</section>
 
-  <main>
-    <!-- About Hero -->
-    <section class="about-hero">
-      <div class="container">
-        <div class="about-hero__grid">
-          <!-- Photo -->
-          <div class="about-hero__photo-wrap reveal">
-            <div class="about-hero__photo">
-              <img src="assets/carter-bishop.jpg" alt="Carter Bishop — Founder of Bishop Solutions" loading="lazy">
-            </div>
-          </div>
+<section class="section" style="background:var(--bg-soft);padding-top:var(--s-8);padding-bottom:var(--s-8);">
+  <div class="container-narrow prose">
+    <h2>Where it started</h2>
+    <p>Everything I do professionally comes from a straightforward foundation: I like working with people, and I like watching systems work well. My first jobs were customer-facing — Men's Wearhouse, Panera Bread, the kind of roles where you learn quickly whether an operation is set up to make employees successful or set up to fight them.</p>
+    <p>Watching operations up close for years taught me one thing that shaped everything after: <strong>most business problems are workflow problems in disguise</strong>. The software and processes people use every day either amplify their effort or drain it. That observation would end up defining my career.</p>
 
-          <!-- Intro -->
-          <div class="about-hero__content">
-            <div class="section-label reveal">The Founder</div>
-            <h1 class="reveal stagger-1">Carter Bishop.<br><em>Builder first, everything else second.</em></h1>
-            <div class="about-hero__bio">
-              <p class="reveal stagger-2">I'm 20 years old, based in Palm Harbor, Florida, and I've already built an enterprise SaaS intelligence platform for a national restaurant chain, scaled a TikTok creator from 45,000 to 1.6 million followers, and spent years selling regulated financial products in high-pressure environments. I didn't follow the traditional path. I built things instead.</p>
-              <p class="reveal stagger-3">My career started in food service and retail — running shifts at Panera, selling suits at Men's Wearhouse. Then I moved into health insurance, where I learned how to advise people on complex decisions under strict compliance requirements. That's where I sharpened the skill that matters most: earning trust fast and delivering real value under pressure.</p>
-              <p class="reveal stagger-4">Along the way, I took a creator brand from 45K to 1.6 million followers — building the growth systems, content strategy, branded website, logo, and apparel catalog end-to-end. Then I built Bishop Solutions and shipped Review Insights: an AI-powered review intelligence platform analyzing 250+ restaurant locations across 49 states. I don't just talk about building. I ship.</p>
-            </div>
-            <div class="about-hero__tags tags reveal stagger-5">
-              <span class="tag">Growth Engineering</span>
-              <span class="tag">Business Intelligence</span>
-              <span class="tag">Consultative Sales</span>
-              <span class="tag">SaaS Development</span>
-              <span class="tag">Data Analysis</span>
-              <span class="tag">Marketing Strategy</span>
-            </div>
-          </div>
-        </div>
+    <h2>The insurance chapter</h2>
+    <p>When I moved into insurance as a licensed Life &amp; Health agent, I got the same view from the inside of a much bigger, much more regulated industry. I worked with clients across 40+ states and became appointed with 40+ carriers, focused primarily on Medicare, life, and supplemental products. Insurance is a business of trust, timing, and paperwork — and I learned the shape of the workflows the hard way, one call and one application at a time.</p>
+    <p>Two things became obvious. First, the client experience matters more than any single product feature — a well-run brokerage feels different from a sloppy one, and clients can tell. Second, the tools most agents use are, honestly, not very good. Fragmented CRMs, spreadsheets patched together, compliance concerns handled by memory. The gap between what agents needed and what they had was enormous.</p>
+
+    <h2>The pivot into building</h2>
+    <p>So I started building. The first version of what became <a href="/projects/bishop-crm.html">Bishop CRM</a> was a personal tool: a place to keep contacts, pipeline, and follow-ups without paying for five overlapping subscriptions. It grew because the problems it solved were problems every operator I talked to also had — the power dialer, unified inbox, TCPA-safe communication, commission tracking, calendars, reporting. I kept building because there was always another rough edge worth smoothing.</p>
+    <p>Around the same time, I started applying the same discipline elsewhere. <a href="/projects/review-intelligence.html">Review Intelligence</a> came out of a simple question: what would it take to actually understand what 150 locations of a business are hearing from their customers? The answer turned into a platform that analyzes 73,000+ reviews with sentiment, complaint classification, and revenue-opportunity detection. <a href="/projects/marketing-command-center.html">Marketing Command Center</a> came out of the same operator instinct — real marketing teams don't need more tools, they need one clean loop from planning to publishing to performance.</p>
+
+    <h2>How I think</h2>
+    <blockquote>Understand the business. Map the workflow. Remove the friction. Ship the tool. Measure it in the real world.</blockquote>
+    <p>That's the loop. It's the same discipline whether the surface is insurance, marketing, review analytics, or an internal ops dashboard. I'd rather ship one boring internal tool that quietly replaces three vendors than pitch a "revolutionary" platform. The best software is the software you don't notice because the business just works.</p>
+    <p>I combine a few things that don't usually sit together: real customer-facing work, real regulated-industry experience, and enough engineering fluency to actually build the systems instead of writing about them. That's the perspective I bring to every project.</p>
+
+    <h2>What I care about</h2>
+    <ul>
+      <li><strong>Execution.</strong> Working software beats a great deck every time.</li>
+      <li><strong>Ownership.</strong> If it's on the roadmap, someone's name is on it — usually mine.</li>
+      <li><strong>Systems thinking.</strong> Every workflow has a shape. Understand the shape before you touch the code.</li>
+      <li><strong>Reliability.</strong> The tools businesses live on should be the ones they think about the least.</li>
+      <li><strong>Being useful.</strong> If a project doesn't make someone's day meaningfully easier, it's not done yet.</li>
+    </ul>
+
+    <h2>Where I'm going</h2>
+    <p>Bishop Solutions is the long-term home for everything I build — the projects, the writing, and the consulting engagements that fit. I want it to remain a place where a recruiter, a founder, a business owner, or an operator can land, understand quickly who I am and what I've done, and reach out if it makes sense to work together.</p>
+    <p>If you're building something interesting — inside insurance, adjacent to it, or completely outside — <a href="/contact.html">say hello</a>.</p>
+  </div>
+</section>
+
+<section class="section--tight">
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <h2>Want the full picture?</h2>
+        <p>The experience timeline covers every role. The projects page covers every build. The resume is the print-friendly version.</p>
       </div>
-    </section>
-
-    <!-- Philosophy Quote -->
-    <section class="philosophy">
-      <div class="container">
-        <div class="section-label section-label--light section-label--center reveal">Philosophy</div>
-        <blockquote class="reveal stagger-1">I build what's needed, ship it, and make it better. The path isn't traditional — but the results don't care about your resume.</blockquote>
-        <cite class="reveal stagger-2">— Carter Bishop</cite>
-      </div>
-    </section>
-
-    <!-- Experience Timeline -->
-    <section class="timeline-section">
-      <div class="container">
-        <div class="timeline-section__header reveal">
-          <div class="section-label">Experience</div>
-          <h2>Every role built something.<br><em>Here's the trajectory.</em></h2>
-        </div>
-
-        <div class="timeline">
-          <!-- Entry 1: Current — HealthPlanOne -->
-          <div class="timeline__entry reveal">
-            <div class="timeline__dot timeline__dot--current"></div>
-            <div class="timeline__date">June 2025 — Present</div>
-            <div class="timeline__title">Health Insurance Agent</div>
-            <div class="timeline__company">HealthPlanOne (Remote)</div>
-            <p class="timeline__desc">Consultative sales of regulated financial products — Medicare Advantage, Supplement, and PDP plans. Top performer in conversion quality and call performance in a high-volume, compliance-driven environment. Every call is a high-stakes decision for the person on the other end. That sharpens you fast.</p>
-            <div class="timeline__tags">
-              <span class="tag">Medicare Sales</span>
-              <span class="tag">Compliance</span>
-              <span class="tag">Top Performer</span>
-            </div>
-          </div>
-
-          <!-- Entry 2: Bishop Solutions -->
-          <div class="timeline__entry reveal">
-            <div class="timeline__dot timeline__dot--current"></div>
-            <div class="timeline__date">2024 — Present</div>
-            <div class="timeline__title">Founder</div>
-            <div class="timeline__company">Bishop Solutions</div>
-            <p class="timeline__desc">Built Review Insights — an enterprise SaaS platform that ingests, classifies, and analyzes Google Reviews across 250+ restaurant locations in 49 states. Developed AI-powered complaint classification achieving 84% accuracy. Architected the full data pipeline from collection through actionable insights. Currently in active demos with national QSR chain executives.</p>
-            <div class="timeline__tags">
-              <span class="tag">Enterprise SaaS</span>
-              <span class="tag">AI/ML Pipeline</span>
-              <span class="tag">250+ Locations</span>
-            </div>
-          </div>
-
-          <!-- Entry 3: healthinsurance.com -->
-          <div class="timeline__entry reveal">
-            <div class="timeline__dot"></div>
-            <div class="timeline__date">January 2024 — July 2025</div>
-            <div class="timeline__title">Health Insurance Agent</div>
-            <div class="timeline__company">healthinsurance.com — Tampa, FL</div>
-            <p class="timeline__desc">Full sales cycle management across multiple product lines — Medicare, ACA, ancillary products. Built advisory-style relationships in a competitive, metrics-driven environment. Learned how to communicate complex product value to diverse demographics while navigating strict regulatory requirements.</p>
-            <div class="timeline__tags">
-              <span class="tag">Full Sales Cycle</span>
-              <span class="tag">Advisory Sales</span>
-              <span class="tag">Multi-Product</span>
-            </div>
-          </div>
-
-          <!-- Entry 4: Men's Wearhouse -->
-          <div class="timeline__entry reveal">
-            <div class="timeline__dot"></div>
-            <div class="timeline__date">January 2022 — December 2023</div>
-            <div class="timeline__title">Retail Sales Associate</div>
-            <div class="timeline__company">Men's Wearhouse — Clearwater, FL</div>
-            <p class="timeline__desc">Revenue-driven personalized selling in a consultative retail environment. Developed client relationships, learned the art of personal presentation, and was consistently recognized for communication skills and customer experience. Built a foundation in understanding what people actually need — not just what they ask for.</p>
-            <div class="timeline__tags">
-              <span class="tag">Consultative Selling</span>
-              <span class="tag">Client Relations</span>
-            </div>
-          </div>
-
-          <!-- Entry 5: Panera Bread -->
-          <div class="timeline__entry reveal">
-            <div class="timeline__dot"></div>
-            <div class="timeline__date">November 2021 — December 2022</div>
-            <div class="timeline__title">Team Leader</div>
-            <div class="timeline__company">Panera Bread — Clearwater, FL</div>
-            <p class="timeline__desc">First professional role. Led shifts, trained new team members, and was promoted rapidly. Learned how operations work from the ground up — inventory, customer flow, team coordination under pressure. Every builder needs to understand how the machine runs before they try to improve it.</p>
-            <div class="timeline__tags">
-              <span class="tag">Operations</span>
-              <span class="tag">Team Leadership</span>
-              <span class="tag">Rapid Promotion</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills & Capabilities -->
-    <section class="skills-section">
-      <div class="container">
-        <div class="skills__grid">
-          <div class="skills__intro reveal">
-            <div class="section-label">Capabilities</div>
-            <h2>What I bring to the table.</h2>
-            <p>I operate at the intersection of technology, sales, and execution. I don't just plan — I build, ship, and iterate until it works.</p>
-          </div>
-
-          <div class="skills__groups">
-            <!-- Technical -->
-            <div class="skill-group reveal">
-              <div class="skill-group__title">Technical</div>
-              <div class="skill-group__list">
-                <div class="skill-group__item">SaaS Platform Development</div>
-                <div class="skill-group__item">AI/ML Model Development</div>
-                <div class="skill-group__item">Data Pipeline Architecture</div>
-                <div class="skill-group__item">Web Scraping &amp; Data Collection</div>
-                <div class="skill-group__item">Dashboard &amp; Analytics Design</div>
-                <div class="skill-group__item">API Development &amp; Integration</div>
-              </div>
-            </div>
-
-            <!-- Strategic -->
-            <div class="skill-group reveal">
-              <div class="skill-group__title">Strategic</div>
-              <div class="skill-group__list">
-                <div class="skill-group__item">Consultative Sales &amp; Lead Generation</div>
-                <div class="skill-group__item">Growth Engineering &amp; Optimization</div>
-                <div class="skill-group__item">Organic Social Media Strategy</div>
-                <div class="skill-group__item">Marketing Strategy &amp; Execution</div>
-                <div class="skill-group__item">Brand Development &amp; Positioning</div>
-                <div class="skill-group__item">Data Analysis &amp; CRM Proficiency</div>
-              </div>
-            </div>
-
-            <!-- Tools -->
-            <div class="skill-group reveal">
-              <div class="skill-group__title">Tools &amp; Technologies</div>
-              <div class="skill-group__tools tags">
-                <span class="tag">Python</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">Cloudflare Workers</span>
-                <span class="tag">Ollama</span>
-                <span class="tag">HTML/CSS</span>
-                <span class="tag">Git</span>
-                <span class="tag">Apify</span>
-                <span class="tag">Google Sheets API</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="about-cta">
-      <div class="container">
-        <h2 class="reveal">Want to work together?</h2>
-        <p class="reveal stagger-1">Whether you're looking to hire a builder, partner on a project, or bring intelligence to your business — let's talk.</p>
-        <div class="btn-group reveal stagger-2">
-          <a href="contact.html" class="btn btn--primary">
-            Get in Touch
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </a>
-          <a href="projects.html" class="btn btn--secondary">
-            See My Work
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__grid">
-        <div>
-          <a href="index.html" class="nav__logo" aria-label="Bishop Solutions home">
-            <div class="nav__logo-mark">B</div>
-            <span class="nav__logo-text">Bishop</span>
-          </a>
-          <p class="footer__brand-desc">AI-powered intelligence systems that help businesses make better decisions with their data.</p>
-        </div>
-        <div>
-          <div class="footer__heading">Navigate</div>
-          <a href="index.html" class="footer__link">Home</a>
-          <a href="about.html" class="footer__link">About</a>
-          <a href="projects.html" class="footer__link">Projects</a>
-          <a href="contact.html" class="footer__link">Contact</a>
-        </div>
-        <div>
-          <div class="footer__heading">Services</div>
-          <a href="review-intelligence.html" class="footer__link">Review Intelligence</a>
-          <a href="competitive-intelligence.html" class="footer__link">Competitive Intelligence</a>
-          <a href="growth-engineering.html" class="footer__link">Growth Engineering</a>
-          <a href="consulting.html" class="footer__link">Consulting</a>
-        </div>
-        <div>
-          <div class="footer__heading">Connect</div>
-          <a href="mailto:solutions.carterbishop@gmail.com" class="footer__link">solutions.carterbishop@gmail.com</a>
-          <a href="#" class="footer__link">LinkedIn</a>
-        </div>
-      </div>
-      <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 Bishop Solutions. All rights reserved.</span>
-        <div class="footer__socials">
-          <a href="#" class="footer__social" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-          </a>
-          <a href="mailto:solutions.carterbishop@gmail.com" class="footer__social" aria-label="Email">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-          </a>
-        </div>
+      <div class="cta-banner__actions">
+        <a href="/experience.html" class="btn btn--primary btn--lg">See experience</a>
+        <a href="/projects.html" class="btn btn--ghost btn--lg">See projects</a>
       </div>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <script src="js/main.js"></script>
+<footer class="site-foot">
+  <div class="container">
+    <div class="site-foot__grid">
+      <div class="site-foot__brand">
+        <a href="/" class="brand"><span class="brand__mark">CB</span><span>Carter Bishop<span class="brand__dot">.</span></span></a>
+        <p>Software builder and business operator. Systems that help businesses run better.</p>
+      </div>
+      <div><h4>Site</h4><a href="/">Home</a><a href="/about.html">About</a><a href="/experience.html">Experience</a><a href="/projects.html">Work</a></div>
+      <div><h4>More</h4><a href="/services.html">Services</a><a href="/resume.html">Resume</a><a href="/blog.html">Writing</a><a href="/contact.html">Contact</a></div>
+      <div><h4>Elsewhere</h4><a href="https://www.linkedin.com/in/carterbishop" rel="me">LinkedIn</a><a href="https://github.com/carterbishop" rel="me">GitHub</a><a href="mailto:hello@bishop.solutions">Email</a></div>
+    </div>
+    <div class="site-foot__bottom"><span>© <span data-year>2026</span> Carter Bishop. All rights reserved.</span><span>bishop.solutions</span></div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
 </body>
 </html>

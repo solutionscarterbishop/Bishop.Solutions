@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AOOS — Artificial Organization Operating System · Carter Bishop</title>
+  <meta name="description" content="AOOS (Artificial Organization Operating System) by Carter Bishop: governance, automation, process design, decision frameworks, and business operating systems for teams that want to scale without breaking." />
+  <link rel="canonical" href="https://bishop.solutions/projects/aoos.html" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#FFFFFF" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="AOOS — Artificial Organization Operating System" />
+  <meta property="og:description" content="Governance, automation, process design, and decision frameworks that make organizations legible." />
+  <meta property="og:url" content="https://bishop.solutions/projects/aoos.html" />
+  <meta property="og:image" content="https://bishop.solutions/assets/og-aoos.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/main.css" />
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"AOOS",
+   "applicationCategory":"BusinessApplication","operatingSystem":"Web","author":{"@type":"Person","name":"Carter Bishop"},
+   "url":"https://bishop.solutions/projects/aoos.html",
+   "description":"Artificial Organization Operating System: governance, automation, process design, decision frameworks, business operating systems."}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://bishop.solutions/"},
+    {"@type":"ListItem","position":2,"name":"Projects","item":"https://bishop.solutions/projects.html"},
+    {"@type":"ListItem","position":3,"name":"AOOS","item":"https://bishop.solutions/projects/aoos.html"}
+  ]}
+  </script>
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Primary">
+  <div class="site-nav__inner">
+    <a href="/" class="brand"><span class="brand__mark">CB</span><span>Carter Bishop<span class="brand__dot">.</span></span></a>
+    <div class="nav-links" id="nav-links">
+      <a href="/">Home</a><a href="/about.html">About</a><a href="/experience.html">Experience</a>
+      <a href="/projects.html">Projects</a><a href="/services.html">Services</a><a href="/blog.html">Blog</a>
+      <a href="/resume.html">Resume</a>
+      <a href="/contact.html" class="nav-cta">Connect With Carter</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<header class="detail-hero">
+  <div class="container">
+    <nav class="detail-hero__crumbs" aria-label="Breadcrumb"><a href="/projects.html">Projects</a> / <span>AOOS</span></nav>
+    <span class="eyebrow">Business operating system</span>
+    <h1>AOOS — Artificial Organization Operating System</h1>
+    <p class="detail-hero__sub">AOOS is an opinionated operating layer for how a business actually runs — governance, roles, decisions, processes, automations. It makes the organization legible to itself and to the people responsible for scaling it.</p>
+    <div class="detail-meta">
+      <div class="detail-meta__block"><div class="detail-meta__label">Role</div><div class="detail-meta__value">Architect · Build</div></div>
+      <div class="detail-meta__block"><div class="detail-meta__label">Category</div><div class="detail-meta__value">Business OS · Governance</div></div>
+      <div class="detail-meta__block"><div class="detail-meta__label">Users</div><div class="detail-meta__value">Operators &amp; founders</div></div>
+      <div class="detail-meta__block"><div class="detail-meta__label">Status</div><div class="detail-meta__value">In active development</div></div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="container detail-body">
+    <aside class="detail-toc" aria-label="On this page">
+      <div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted-2);margin-bottom:var(--s-3);">On this page</div>
+      <a href="#overview">Overview</a><a href="#problem">Problem</a><a href="#approach">Approach</a>
+      <a href="#architecture">Architecture</a><a href="#technology">Technology</a><a href="#features">Features</a>
+      <a href="#lessons">Lessons</a><a href="#impact">Impact</a><a href="#future">Future</a>
+    </aside>
+    <article class="prose" style="max-width:820px;">
+
+      <section class="detail-section" id="overview">
+        <h2>Overview</h2>
+        <p>AOOS captures the answer to a question that every scaling organization eventually asks: <em>how are we actually run?</em> It stores the roles, the processes, the decisions, the standards, and the automations in one legible place, and it wires them into the tools the team already uses.</p>
+      </section>
+
+      <section class="detail-section" id="problem">
+        <h2>Problem</h2>
+        <p>As organizations grow, tribal knowledge accumulates faster than documentation. Roles blur, decisions repeat, processes drift, and every new hire pays the same tax of relearning the same lessons. Traditional wikis are graveyards; traditional workflow tools capture tasks but not the reasoning around them.</p>
+      </section>
+
+      <section class="detail-section" id="approach">
+        <h2>Approach</h2>
+        <p>Treat the organization as a system with typed primitives: roles, responsibilities, processes, decisions, and standards. Wire those primitives into automations and the tools the team already uses, so the operating system stays alive rather than becoming shelfware.</p>
+      </section>
+
+      <section class="detail-section" id="architecture">
+        <h2>Architecture</h2>
+        <p>Graph-shaped organization model: roles connect to responsibilities, responsibilities to processes, processes to standards and decisions. Automation triggers hang off any node. Integrations with the rest of the toolchain let AOOS both push (create tasks, docs, checks) and pull (audit whether reality matches the model).</p>
+      </section>
+
+      <section class="detail-section" id="technology">
+        <h2>Technology</h2>
+        <p>Web app backed by a graph-aware store, an automations engine, and integrations with common operational tools. Version control is native, because how the organization runs should have a diff and a history.</p>
+      </section>
+
+      <section class="detail-section" id="features">
+        <h2>Features</h2>
+        <div class="feature-list">
+          <div>Roles &amp; responsibilities graph</div>
+          <div>Process design &amp; versioning</div>
+          <div>Decision frameworks &amp; logs</div>
+          <div>Standards &amp; policy library</div>
+          <div>Automation triggers</div>
+          <div>Change management workflows</div>
+          <div>Operational audit views</div>
+          <div>Integration with existing toolchain</div>
+        </div>
+      </section>
+
+      <section class="detail-section" id="lessons">
+        <h2>Lessons</h2>
+        <ul>
+          <li><strong>Docs die. Systems live.</strong> A process only survives if it's connected to something a person actually does today.</li>
+          <li><strong>Graphs beat folders.</strong> Organizations are relational; treating them as trees loses too much information.</li>
+          <li><strong>Version control everything.</strong> How the org runs is a codebase.</li>
+        </ul>
+      </section>
+
+      <section class="detail-section" id="impact">
+        <h2>Impact</h2>
+        <p>Turns intuition-driven scaling into a legible, teachable operating system. New team members onboard by touring the graph. Founders sleep better because the operating system stops living in their heads.</p>
+      </section>
+
+      <section class="detail-section" id="future">
+        <h2>Future direction</h2>
+        <p>Deeper AI-assisted process authoring, richer integrations, and an execution layer that runs recurring operating rhythms directly against the model.</p>
+      </section>
+
+    </article>
+  </div>
+</section>
+
+<section class="section--tight">
+  <div class="container">
+    <div class="cta-banner">
+      <div><h2>Scaling a team past the founder's head?</h2><p>Let's talk about making the operating system real.</p></div>
+      <div class="cta-banner__actions"><a href="/contact.html" class="btn btn--primary btn--lg">Connect With Carter</a><a href="/projects.html" class="btn btn--ghost btn--lg">Other projects</a></div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="container">
+    <div class="site-foot__grid">
+      <div class="site-foot__brand"><a href="/" class="brand"><span class="brand__mark">CB</span><span>Carter Bishop<span class="brand__dot">.</span></span></a><p>Insurance professional, software builder, and business operator.</p></div>
+      <div><h4>Site</h4><a href="/">Home</a><a href="/about.html">About</a><a href="/experience.html">Experience</a><a href="/projects.html">Projects</a></div>
+      <div><h4>Work</h4><a href="/services.html">Services</a><a href="/resume.html">Resume</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></div>
+      <div><h4>Elsewhere</h4><a href="https://www.linkedin.com/in/carterbishop">LinkedIn</a><a href="https://github.com/carterbishop">GitHub</a><a href="mailto:hello@bishop.solutions">Email</a></div>
+    </div>
+    <div class="site-foot__bottom"><span>© <span data-year>2026</span> Carter Bishop.</span><span>bishop.solutions</span></div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>
